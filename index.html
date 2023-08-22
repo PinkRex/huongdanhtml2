@@ -1,0 +1,1073 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style3.css" />
+  </head>
+
+  <body>
+    <nav id="navbar">
+      <header>Mục lục</header>
+      <ul id="navul">
+        <li><a class="nav-link" href="#foreword">Lời mở đầu</a></li>
+        <li><a class="nav-link" href="#goal">Mục tiêu cần đạt</a></li>
+        <li><a class="nav-link" href="#HTML_define">HTML là gì</a></li>
+        <li><a class="nav-link" href="#HTML_pros_cons">Có nên học HTML</a></li>
+        <li><a class="nav-link" href="#getting_start">Khởi đầu với HTML</a></li>
+        <li><a class="nav-link" href="#tag_in_HTML">Thẻ trong HTML</a></li>
+        <li>
+          <a class="nav-link" href="#attribute_in_HTML"
+            >Thuộc tính trong HTML</a
+          >
+        </li>
+        <li>
+          <a class="nav-link" href="#lesson_one"
+            >Bài 1: Comments, heading, spacing</a
+          >
+        </li>
+        <li>
+          <a class="nav-link" href="#lesson_two">Bài 2: Text formating</a>
+        </li>
+        <li>
+          <a class="nav-link" href="#lesson_three">Bài 3: Links & image</a>
+        </li>
+        <li><a class="nav-link" href="#lesson_four">Bài 4: List</a></li>
+        <li><a class="nav-link" href="#lesson_five">Bài 5: Table</a></li>
+        <li><a class="nav-link" href="#lesson_six">Bài 6: Audio</a></li>
+        <li><a class="nav-link" href="#lesson_seven">Bài 7: Video</a></li>
+        <li><a class="nav-link" href="#lesson_eight">Bài 8: Button</a></li>
+        <li><a class="nav-link" href="#lesson_nine">Bài 9: Form</a></li>
+        <li><a class="nav-link" href="#lesson_ten">Bài 10: Meta tag</a></li>
+        <li><a class="nav-link" href="#lesson_eleven">Bài 11: Color</a></li>
+        <li>
+          <a class="nav-link" href="#lesson_twelve">Bài 12: Span & div tags</a>
+        </li>
+        <li>
+          <a class="nav-link" href="#lesson_thirteen">Bài 13: Một vài lưu ý</a>
+        </li>
+      </ul>
+    </nav>
+
+    <main id="main-doc">
+      <section id="foreword" class="main-section">
+        <header>Lời mở đầu</header>
+
+        <article>
+          <p>
+            Trang Web này là một dự án luyện tập do
+            <a href="https://www.freecodecamp.org/learn/" target="_blank"
+              >FreeCodeCamp</a
+            >
+            đề ra.
+          </p>
+          <p>
+            Những kiến thức trong trang Web này là kết tinh quá trình tự tìm
+            hiểu và chọn lọc từ nhiều nguồn khác nhau.
+          </p>
+          <p>
+            Kiến thức trong trang Web này hoàn toàn không thuộc bản quyền của
+            tác giả trang Web.
+          </p>
+          <p>Bản quyền thiết kế thuộc về tác giả Pinkrex.</p>
+        </article>
+      </section>
+
+      <section id="goal" class="main-section">
+        <header>Mục tiêu cần đạt</header>
+
+        <article>
+          <p>Trang Web này sẽ giúp các bạn đạt được:</p>
+
+          <ul>
+            <li>Hiểu được định nghĩa của HTML</li>
+            <li>Biết được chức năng cơ bản của HTML trong thiết kế Web</li>
+            <li>Những kiến thức cơ bản về HTML</li>
+          </ul>
+        </article>
+      </section>
+
+      <section id="HTML_define" class="main-section">
+        <header>HTML là gì</header>
+
+        <article>
+          <p>
+            HTML là từ viết tắt của <i>"Hypertext Markup Language"</i>, là sự
+            kết hợp của <i>Hypertext</i> và <i>Markup</i>, hay còn được gọi là
+            ngôn ngữ siêu văn bản. HTML có chức năng giúp người dùng xây dựng và
+            cấu trúc các phần trong trang web hoặc ứng dụng, thường được sử dụng
+            trong phân chia các đoạn văn, heading, link, blockquotes,…
+          </p>
+
+          <p>Lịch sử của ngôn ngữ HTML:</p>
+          <ul>
+            <li>
+              Cha đẻ của HTML là Tim Berners Lee nhà vật lý học, là người nghĩ
+              ra ý tưởng dựa trên hệ thống hypertext trên nền internet.
+            </li>
+            <li>
+              Năm 1991, xuất bản phiên bản đầu tiên của HTML gồm 18 tag HTML.
+            </li>
+            <li>Năm 1998, HTML phiên bản 4.01 ra đời.</li>
+            <li>Năm 2000, các phiên bản HTML được thay thế bằng XHTML.</li>
+            <li>
+              Năm 2014, HTML được nâng cấp lên HTML5 với sự cải tiến rõ rệt.
+            </li>
+          </ul>
+
+          <p>
+            Dấu hiệu nhận biết HTML documents chính là files có kết thúc đuôi là
+            .html hoặc htm và có thể xem bằng cách sử dụng bất kỳ trình duyệt
+            web nào, chẳng hạn như Safari, Google chrome, Microsoft edge,… Các
+            trình duyệt sẽ đọc được files HTML và xuất bản nội dung lên
+            internet, tại đây người dùng hoàn toàn dễ dàng đọc được nó.
+          </p>
+        </article>
+      </section>
+
+      <section id="HTML_pros_cons" class="main-section">
+        <header>Có nên học HTML</header>
+
+        <article>
+          <p>Ưu điểm:</p>
+
+          <ul>
+            <li>
+              HTML được ra đời từ rất lâu, do đó HTML có nguồn tài nguyên khổng
+              lồ, hỗ trợ một cộng đồng người dùng lớn. Bên cạnh đó, cộng đồng
+              HTML ngày càng phát triển trên thế giới.
+            </li>
+            <li>
+              Mã nguồn của HTML là mã nguồn mở, do đó người dùng có thể sử dụng
+              hoàn toàn miễn phí.
+            </li>
+            <li>
+              HTML được sử dụng và được sử dụng trên nhiều trình duyệt được
+              nhiều người dùng ưa chuộng hiện nay như Internet Explorer, Chrome,
+              FireFox, Cốc cốc,…
+            </li>
+            <li>
+              Học và tìm hiểu HTML đơn giản nên người học dễ dàng nắm được kiến
+              thức và vận dụng trong xây dựng trang web căn bạn.
+            </li>
+            <li>
+              HTML được quy định theo một tiêu chuẩn nhất định nên việc markup
+              sẽ trở nên gọn gàng, đồng nhất bởi HTML được vận hành bởi World
+              Wide Web Consortium (W3C).
+            </li>
+            <li>
+              HTML được thực hiện dễ dàng bởi HTML được tích hợp nhiều ngôn ngữ
+              khác nhau như PHP, Java, NodeJs, Ruby,…Điều này sẽ giúp tạo thành
+              một website hoàn chỉnh với nhiều tính năng.
+            </li>
+          </ul>
+
+          <p>Nhược điểm:</p>
+
+          <ul>
+            <li>
+              Nhược điểm lớn nhất của HTML đó chính là chỉ có thể web tĩnh, web
+              tĩnh có thể hiểu là những trang web chỉ hiện thông tin mà không có
+              sự tương tác cho người dùng.
+            </li>
+            <li>
+              Khi xây dựng tính năng động hoặc xây dựng hệ thống website có sự
+              tương tác với người dùng, lập trình viên cần phải dùng thêm
+              JavaScript hoặc ngôn ngữ backend của bên thứ ba.
+            </li>
+            <li>
+              HTML thường chỉ có thể thực thi những thứ logic và cấu trúc nhất
+              định, HTML không có khả năng tạo sự khác biệt và mới mẻ.
+            </li>
+            <li>
+              Một số trình duyệt vẫn còn chậm trong viết hỗ trợ các phiên bản
+              mới của HTML, đặc biệt là HTML5.
+            </li>
+            <li>
+              Một số trình duyệt không thể render những tag mới trong HTML5.
+            </li>
+          </ul>
+        </article>
+      </section>
+
+      <section id="getting_start" class="main-section">
+        <header>Khởi đầu với HTML</header>
+
+        <article>
+          <li>
+            Phần khai báo chuẩn của HTML có cấu trúc &lt;!DOCTYPE html&gt;
+          </li>
+          <p>
+            Phần này cho người dùng biết được trình duyệt đang sử dụng hiện đang
+            dùng phiên bản HTML nào.
+          </p>
+
+          <li>
+            Thẻ cặp nằm ngoài cùng, cả phần tiêu đề và phần thân đều phải nằm
+            trong cặp thẻ &lt;html&gt; và &lt;/html&gt;
+          </li>
+          <p>
+            Đây là cặp thẻ nằm ngoài cùng, cặp thẻ này có nhiệm vụ bao hết nội
+            dung của trang web lại.
+          </p>
+
+          <li>
+            Phần tiêu đề: Phần khai báo ban đầu, nằm trong cặp thẻ &lt;head&gt;
+            và &lt;/head&gt;
+          </li>
+          <p>
+            Đây là phần chứa tiêu đề và tiêu đề được hiển thị trên thanh điều
+            hướng của trang web.
+          </p>
+
+          <li>
+            Phần thân: Phần chứa và hiển thị nội dung của trang web, nằm trong
+            cặp thẻ &lt;body&gt; và &lt;/body&gt;.
+          </li>
+          <p>
+            Phần này nằm phía sau tiêu đề, bao gồm các thông tin mà bạn muốn
+            hiển thị trên trang web bao gồm văn bản, hình ảnh và các liên kết.
+          </p>
+
+          <div class="example">
+            <code class="example_para">
+              &lt;!DOCTYPE html&gt; <br />
+              &lt;html lang="en"&gt; <br />
+              <br />
+              &lt;head&gt; <br />
+              &nbsp;&nbsp;&nbsp;&nbsp;&lt;meta charset="UTF-8"&gt; <br />
+              &nbsp;&nbsp;&nbsp;&nbsp;&lt;meta name="viewport"
+              content="width=device-width, initial-scale=1.0"&gt; <br />
+              &nbsp;&nbsp;&nbsp;&nbsp;&lt;title&gt;Document&lt;/title&gt; <br />
+              &lt;/head&gt; <br />
+              <br />
+              &lt;body&gt; <br />
+              <br />
+              &lt;/body&gt; <br />
+              <br />
+              &lt;/html&gt; <br />
+            </code>
+          </div>
+        </article>
+      </section>
+
+      <section id="tag_in_HTML" class="main-section">
+        <header>Thẻ trong HTML</header>
+
+        <article>
+          <p>
+            Thẻ HTML là một phần của ngôn ngữ đánh dấu được sử dụng để chỉ ra
+            phần đầu và phần cuối của một phần tử HTML trong tài liệu HTML.
+          </p>
+          <p>
+            Là một phần của phần tử HTML, thẻ HTML giúp trình duyệt web chuyển
+            đổi tài liệu HTML thành trang web.
+          </p>
+          <p>Ví dụ:</p>
+          <div class="example">
+            <code class="example_para">
+              <p>
+                Thẻ &lt;p&gt; được sử dụng để tổ chức nội dung văn bản thành các
+                phần tử đoạn
+              </p>
+              <p>Thẻ &lt;img&gt; được sử dụng để nhúng các phần tử hình ảnh</p>
+            </code>
+          </div>
+
+          <p>
+            Các thẻ trong HTML chứa 3 phần chính: <i>thẻ mở</i>,
+            <i>nội dung</i>, <i>thẻ đóng</i>. Nhưng có một số thẻ trong HTML chỉ
+            có thẻ mở (thẻ tự đóng)
+          </p>
+          <p>Ví dụ:</p>
+
+          <div class="example">
+            <code class="example_para">
+              <p>&lt;p&gt;(thẻ mở) nội_dung &lt;/p&gt;(thẻ đóng)</p>
+              <p>&lt;img&gt;(thẻ tự đóng)</p>
+            </code>
+          </div>
+        </article>
+      </section>
+
+      <section id="attribute_in_HTML" class="main-section">
+        <header>Thuộc tính trong HTML</header>
+
+        <article>
+          <p>
+            Trong ngôn ngữ HTML, thuộc tính có thể tạm hiểu là một loại thông
+            tin nào đó liên quan đến phần tử.
+          </p>
+          <p>
+            Mỗi thuộc tính sẽ được đại diện bởi một từ khóa bằng tiếng anh, ví
+            dụ:
+          </p>
+          <div class="example">
+            <code class="example_para">
+              <p>
+                Thuộc tính <i>width</i> dùng để nói đến chiều rộng của phần tử.
+              </p>
+              <p>
+                Thuộc tính <i>height</i> dùng để nói đến chiều cao của phần tử.
+              </p>
+            </code>
+          </div>
+        </article>
+      </section>
+
+      <section id="lesson_one" class="main-section">
+        <header>Bài 1: Comments, heading, spacing</header>
+
+        <article>
+          <h4 class="sub_header">Comment</h4>
+          <p>Thẻ <i>Comment</i> được dùng để đánh dấu, ghi chú cho bản thân.</p>
+          <p>
+            Nội dung bên trong thẻ <i>Comment</i> có thể trên một hoặc nhiều
+            dòng và sẽ không hiển thị trên trang Web.
+          </p>
+          <div class="example">
+            <code class="example_knowledge">
+              &lt;!-- Nội dung này sẽ không được hiển thị --&gt;
+            </code>
+
+            <code id="comment_ex" class="example_code">
+              &lt;!-- Nội dung này sẽ không được hiển thị --&gt;
+            </code>
+          </div>
+
+          <h4 class="sub_header">Heading</h4>
+          <p>
+            Heading được dùng để thể hiện cấu trúc của văn bản băng cách chuyển
+            văn bản thành tiêu đề, đề mục, ..
+          </p>
+          <p>Heading gồm 6 bậc từ h1 đến h6 với độ lớn giảm dần</p>
+          <div class="example">
+            <code class="example_knowledge">
+              &lt;h1&gt; Đây là tiêu đề lớn nhất &lt;/h1&gt; <br /><br />
+              &lt;h6&gt; Đây là tiêu đề nhỏ nhất &lt;/h6&gt;
+            </code>
+
+            <code class="example_code">
+              <b
+                ><big><big>Đây là tiêu đề lớn nhất</big></big></b
+              >
+              <br /><br />
+              <b><small>Đây là tiêu đề nhỏ nhất</small></b>
+            </code>
+          </div>
+
+          <h4 class="sub_header">Spacing</h4>
+          <p>
+            Trong HTML có nhiều cách để để xuống dòng cũng như là giãn dòng,
+            dưới đây là một vài thẻ thường được sử dụng.
+          </p>
+          <p>
+            Một lưu ý là không phải cách nào cũng cần ghi nhớ vì khi sang CSS sẽ
+            có những thuộc tính thay thế.
+          </p>
+
+          <p class="description">
+            &lt;p&gt; &lt;/p&gt; được dùng để đánh dấu một đoạn văn bản
+          </p>
+          <div class="example">
+            <code class="example_knowledge">
+              &lt;p&gt; Đây là một đoạn văn bản &lt;/p&gt;
+            </code>
+
+            <code class="example_code"> Đây là một đoạn văn bản </code>
+          </div>
+
+          <p class="description">&lt;br&gt; được dùng để xuống dòng</p>
+          <div class="example">
+            <code class="example_knowledge">
+              &lt;p&gt; Đây là một &lt;br&gt; đoạn văn bản &lt;/p&gt;
+            </code>
+
+            <code class="example_code">
+              Đây là một <br />
+              đoạn văn bản
+            </code>
+          </div>
+
+          <p class="description">
+            &lt;hr&gt; được dùng để tạo ra một khoảng ngăn cách nhìn thấy được
+            trên trang web
+          </p>
+          <div class="example">
+            <code class="example_knowledge">
+              &lt;p&gt; Đây là một &lt;hr&gt; đoạn văn bản &lt;/p&gt;
+            </code>
+
+            <code class="example_code">
+              Đây là một
+              <hr />
+              đoạn văn bản
+            </code>
+          </div>
+
+          <p class="description">
+            &amp;nbsp (non-breaking space) là một <i>HTML entity</i> được dùng
+            để tạo ra một dấu cách nhìn thấy được trên Web, điều này tương tự
+            với việc nhấn 1 phím space.
+          </p>
+          <div class="example">
+            <code class="example_knowledge">
+              &lt;p&gt; Đây là một&amp;nbspđoạn văn bản &lt;/p&gt;
+            </code>
+
+            <code class="example_code"> Đây là một&nbsp;đoạn văn bản </code>
+          </div>
+        </article>
+      </section>
+
+      <section id="lesson_two" class="main-section">
+        <header>Bài 2: Text formating</header>
+
+        <article>
+          <p>
+            Text format là cách chúng ta định dạng văn bản, thay đổi kiểu văn
+            bản như chữ nghiêng, chữ đậm,...
+          </p>
+          <p>Dưới đây là một số cách định dạng văn bản thường dùng:</p>
+
+          <p class="description">
+            &lt;b&gt; &lt;/b&gt; được dùng để in đậm phần tử trong thẻ
+          </p>
+          <div class="example">
+            <code class="example_knowledge">
+              &lt;b&gt; Đây là ví dụ &lt;/b&gt;
+            </code>
+
+            <code class="example_code">
+              <b>Đây là ví dụ</b>
+            </code>
+          </div>
+
+          <p class="description">
+            &lt;i&gt; &lt;/i&gt; được dùng để in nghiêng phần tử trong thẻ
+          </p>
+          <div class="example">
+            <code class="example_knowledge">
+              &lt;i&gt; Đây là ví dụ &lt;/i&gt;
+            </code>
+
+            <code class="example_code">
+              <i>Đây là ví dụ</i>
+            </code>
+          </div>
+
+          <p class="description">
+            &lt;sub&gt; &lt;/sub&gt; được dùng để làm các phần tử trong thẻ có
+            chữ nhỏ hơn một chút và dịch xuống dưới
+          </p>
+          <div class="example">
+            <code class="example_knowledge">
+              &lt;p&gt; Cột mốc &lt;/p&gt; &lt;sub&gt; Đây là ví dụ &lt;/sub&gt;
+            </code>
+
+            <code class="example_code">
+              Cột mốc
+              <sub>Đây là ví dụ</sub>
+            </code>
+          </div>
+
+          <p class="description">
+            &lt;sup&gt; &lt;/sup&gt; được dùng để làm các phần tử trong thẻ có
+            chữ nhỏ hơn một chút và dịch lên trên
+          </p>
+          <div class="example">
+            <code class="example_knowledge">
+              &lt;p&gt; Cột mốc &lt;/p&gt; &lt;sub&gt; Đây là ví dụ &lt;/sub&gt;
+            </code>
+
+            <code class="example_code">
+              Cột mốc
+              <sup>Đây là ví dụ</sup>
+            </code>
+          </div>
+
+          <p class="description">
+            &lt;small&gt; &lt;/small&gt; được dùng để làm các phần tử trong thẻ
+            có chữ nhỏ hơn
+          </p>
+          <div class="example">
+            <code class="example_knowledge">
+              &lt;p&gt; Cột mốc &lt;/p&gt; &lt;small&gt; Đây là ví dụ
+              &lt;/small&gt;
+            </code>
+
+            <code class="example_code">
+              Cột mốc
+              <small>Đây là ví dụ</small>
+            </code>
+          </div>
+
+          <p class="description">
+            &lt;big&gt; &lt;/big&gt; được dùng để làm các phần tử trong thẻ có
+            chữ lớn hơn
+          </p>
+          <div class="example">
+            <code class="example_knowledge">
+              &lt;p&gt; Cột mốc &lt;/p&gt; &lt;big&gt; Đây là ví dụ &lt;/big&gt;
+            </code>
+
+            <code class="example_code">
+              Cột mốc
+              <big>Đây là ví dụ</big>
+            </code>
+          </div>
+
+          <p class="description">
+            &lt;ins&gt; &lt;/ins&gt; được dùng để gạch dưới phần tử trong thẻ
+          </p>
+          <div class="example">
+            <code class="example_knowledge">
+              &lt;ins&gt; Đây là ví dụ &lt;/ins&gt;
+            </code>
+
+            <code class="example_code">
+              <ins>Đây là ví dụ</ins>
+            </code>
+          </div>
+
+          <p class="description">
+            &lt;del&gt; &lt;/del&gt; được dùng để tạo 1 gạch ngang phần tử trong
+            thẻ (giống như bị xóa)
+          </p>
+          <div class="example">
+            <code class="example_knowledge">
+              &lt;del&gt; Đây là ví dụ &lt;/del&gt;
+            </code>
+
+            <code class="example_code">
+              <del>Đây là ví dụ</del>
+            </code>
+          </div>
+
+          <p class="description">
+            &lt;mark&gt; &lt;/mark&gt; được dùng để đánh dấu phần tử trong thẻ
+            (làm nổi bật)
+          </p>
+          <div class="example">
+            <code class="example_knowledge">
+              &lt;mark&gt; Đây là ví dụ &lt;/mark&gt;
+            </code>
+
+            <code class="example_code">
+              <mark>Đây là ví dụ</mark>
+            </code>
+          </div>
+        </article>
+      </section>
+
+      <section id="lesson_three" class="main-section">
+        <header>Bài 3: Links & image</header>
+
+        <article>
+          <h4 class="sub_header">Links</h4>
+          <p>
+            Các thành phần bên trong thẻ &lt;a&gt; &lt;/a&gt; sẽ hoạt động như
+            một hyperlink dẫn đến một yếu tố khác, một trang Web khác, ...
+          </p>
+          <p>
+            Tuy nhiên nếu để như vậy thì khi nhấn vào sẽ không có gì xảy ra, lúc
+            này chúng ta cần thêm thuộc tính cho thẻ
+          </p>
+          <p>Một số thuộc tính thường dùng</p>
+          <div class="example">
+            <code class="example_para">
+              <p>
+                Thuộc tính <i>href</i> được dùng để cụ thể hóa việc đẫn tới
+                đích. Nếu không muốn dẫn đến địa chỉ đích nào ta có thể dùng:
+                <i>href="#"</i>
+              </p>
+              <p>
+                Thuộc tính <i>target</i> được dùng để xác định cửa sổ hiển thị
+                cho thẻ liên kết, nghĩa là liên kết sẽ mở trên của sổ hiện tại
+                hay là cửa sổ mới
+              </p>
+              <p>
+                Thuộc tính <i>dowload</i> giúp tải một file nào đó xuống thiết
+                bị của người dùng khi họ nhấn vào một liên kết được đính kèm:
+                <i>dowload="tên_file_tải_xuống"</i>
+              </p>
+            </code>
+          </div>
+
+          <h4 class="sub_header">Images</h4>
+          <p>Thẻ &lt;img&gt; được dùng để chèn hình ảnh vào trang Wrb</p>
+          <p>
+            Trong thẻ &lt;img&gt; có nhiều thuộc tính thông dụng, tỏng đó thuộc
+            tính <i>src</i> là bắt buộc dùng để khai báo đường dẫn url của ảnh
+          </p>
+          <p>Một số thuộc tính thường dùng</p>
+          <div class="example">
+            <code class="example_para">
+              <p>
+                Thuộc tính <i>src</i> xác định đường dẫn đến tập tin hình ảnh mà
+                bạn muốn chèn vào trang web: <i>src="nguồn_của_ảnh"</i>
+              </p>
+              <p>
+                Thuộc tính <i>width</i> để thiết lập chiều rộng cho tấm hình
+              </p>
+              <p>Thuộc tính <i>height</i> để xác lập chiều cao cho tấm hình</p>
+              <p>
+                Thuộc tính <i>alt</i> xác định một nội dung văn bản sẽ được hiển
+                thị thay thế khi đường dẫn tới tập tin hình ảnh không chính xác:
+                <i>alt="văn_bản_thay_thế"</i>
+              </p>
+            </code>
+          </div>
+        </article>
+      </section>
+
+      <section id="lesson_four" class="main-section">
+        <header>Bài 4: List</header>
+
+        <article>
+          <h4 class="sub_header">Thẻ list</h4>
+          <p>
+            &lt;li&gt; &lt;/li&gt; dùng để xác định một <i>danh mục</i> trong
+            danh sách
+          </p>
+          <p>Thẻ phải được đặt bên trong phần tử &lt;ul&gt; hoặc &lt;ol&gt;</p>
+          <p>Trong thẻ &lt;li&gt; có thể chứa &lt;ul&gt; hoặc &lt;ol&gt;</p>
+
+          <h4 class="sub_header">Unorder list</h4>
+          <p>
+            &lt;ul&gt; dùng để xác định một <i>danh sách không có thứ tự</i>
+          </p>
+          <p>
+            Để tạo thành các danh mục trong danh sách thì phải sử dụng kết hợp
+            với thẻ &lt;li&gt;
+          </p>
+          <p>Một số thuộc tính của &lt;ul&gt;:</p>
+
+          <p class="description">
+            Thuộc tính <i>type</i> dùng để xác đinh <i>kiểu chỉ mục</i> cho các
+            danh mục trong danh sách
+          </p>
+          <div class="example">
+            <code class="example_knowledge">
+              type="disc" <br />
+              type="circle" <br />
+              type="square"
+            </code>
+
+            <code class="example_code">
+              <li class="clear" type="disc">Danh mục 1</li>
+              <li class="clear" type="circle">Danh mục 2</li>
+              <li class="clear" type="square">Danh mục 3</li>
+            </code>
+          </div>
+
+          <h4 class="sub_header">Ordered list</h4>
+          <p>&lt;ol&gt; dùng để xác định một <i>danh sách có thứ tự</i></p>
+          <p>
+            Để tạo thành các danh mục trong danh sách thì phải sử dụng kết hợp
+            với thẻ &lt;li&gt;
+          </p>
+          <p>Một số thuộc tính của &lt;ol&gt;:</p>
+
+          <p class="description">
+            Thuộc tính <i>type</i> dùng để xác đinh <i>kiểu chỉ mục</i> cho các
+            danh mục trong danh sách
+          </p>
+          <div class="example">
+            <code class="example_knowledge">
+              type="1" <br />
+              type="a" <br />
+              type="A" <br />
+              type="i" <br />
+              type="I"
+            </code>
+
+            <code class="example_code">
+              <li class="clear" type="1">Danh mục 1</li>
+              <li class="clear" type="a">Danh mục 2</li>
+              <li class="clear" type="A">Danh mục 3</li>
+              <li class="clear" type="i">Danh mục 4</li>
+              <li class="clear" type="I">Danh mục 5</li>
+            </code>
+          </div>
+
+          <p class="description">
+            Thuộc tính <i>start</i> dùng để xác đinh <i>thứ tự bắt đầu</i> cho
+            các danh mục trong danh sách
+          </p>
+          <div class="example">
+            <code class="example_knowledge"> type="1" start="7" </code>
+
+            <code class="example_code">
+              <ol class="clear" type="1" start="7">
+                <li class="clear">Danh mục 1</li>
+              </ol>
+            </code>
+          </div>
+
+          <h4 class="sub_header">Descrtiption list</h4>
+          <p>
+            Đúng như tên gọi, descrtiption list được dùng để xác định một
+            <i>danh sách thông tin</i>
+          </p>
+          <p>Thẻ bắt đầu bằng cặp &lt;dl&gt; &lt;/dl&gt;</p>
+          <p>
+            Tuy nhiên, khác với các danh sách khác, các danh mục bên trong được
+            xác định bằng cặp thẻ &lt;dt&gt; &lt;/dt&gt;, những danh mục này
+            được gọi là những danh mục <i>cần được giải thích</i>
+          </p>
+          <p>
+            Đoạn mô tả cho các danh mục cần giải thích nằm trong cặp thẻ
+            &lt;dd&gt; &lt;/dd&gt;
+          </p>
+          <div class="example">
+            <code class="example_para">
+              &lt;dl&gt;<br />
+              &nbsp;&nbsp;&nbsp;&nbsp;&lt;dt&gt;Tên_vật_cần_giải_thích&lt;/dt&gt;<br />
+              &nbsp;&nbsp;&nbsp;&nbsp;&lt;dd&gt;Phần_giải_thích_của_cái_trên&lt;/dd&gt;<br />
+              &lt;/dl&gt;
+            </code>
+          </div>
+
+          <h4 class="sub_header">Nested list</h4>
+          <p>
+            Là một kiểu danh sách đa cấp, trong đó có nhiều kiểu danh sách lồng
+            vào với nhau
+          </p>
+          <div class="example">
+            <code class="example_para">
+              &lt;ul&gt;<br />
+              &nbsp;&nbsp;&nbsp;&nbsp;&lt;li&gt;Front-End <br />
+              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;ol&gt; <br />
+              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;li&gt;HTML&lt;/li&gt;
+              <br />
+              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;li&gt;CSS&lt;/li&gt;
+              <br />
+              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;li&gt;Javascript&lt;/li&gt;
+              <br />
+              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;/ol&gt; <br />
+              &nbsp;&nbsp;&nbsp;&nbsp;&lt;/li&gt;<br />
+
+              &nbsp;&nbsp;&nbsp;&nbsp;&lt;li&gt;Back-End&lt;/li&gt;<br />
+              &lt;/ul&gt;
+            </code>
+          </div>
+        </article>
+      </section>
+
+      <section id="lesson_five" class="main-section">
+        <header>Bài 5: Table</header>
+
+        <article>
+          <h4 class="sub_header">Thẻ table</h4>
+          <p>Thẻ &lt;table&gt; xác định phần tử là một bảng</p>
+          <p>Các thuộc tính thường gặp</p>
+          <div class="example">
+            <code class="example_para">
+              <p>
+                Thuộc tính <i>boder</i> thiết lập đường viền cho bản cũng như
+                các ô trong bảng
+              </p>
+              <p>Thuộc tính <i>bgcolor</i> thiết lập màu nền cho bảng</p>
+              <p>Thuộc tính <i>height</i> xác định chiều cao của bảng</p>
+              <p>Thuộc tính <i>width</i> xác định chiều rộng của bảng</p>
+            </code>
+          </div>
+          <h4 class="sub_header">Thẻ table row</h4>
+          <p>Thẻ &lt;tr&gt; xác định phần tử là một hàng trong bảng</p>
+          <p>Các thuộc tính thường gặp</p>
+          <div class="example">
+            <code class="example_para">
+              <p>
+                Thuộc tính <i>align</i> dùng để canh lề nội dung của ô theo
+                chiều ngang của tất cả các ô trong hàng với các giá trị
+                <i>left</i>, <i>right</i>, <i>center</i>, <i>justify</i>
+              </p>
+              <p>
+                Thuộc tính <i>valign</i> dùng đề canh lề nội dung của ô theo
+                chiều dọc của tất cả các ô trong hàng với các giá trị
+                <i>top</i>, <i>bottom</i>, <i>middle</i>
+              </p>
+              <p>
+                Thuộc tính <i>bgcolor</i> dùng để thiết lập màu nền cho tất cả
+                các ô trong bảng
+              </p>
+            </code>
+          </div>
+
+          <h4 class="sub_header">Thẻ table head</h4>
+          <p>
+            Thẻ &lt;th&gt; xác định phần tử là một ô tiêu đề trong hàng, ô tiêu
+            đề sẽ được tô đậm nổi bật
+          </p>
+          <p>Các thuộc tính thường gặp</p>
+          <div class="example">
+            <code class="example_para">
+              <p>Thuộc tính <i>height</i> xác định chiều cao của ô</p>
+              <p>Thuộc tính <i>width</i> xác định chiều rộng của ô</p>
+            </code>
+          </div>
+
+          <h4 class="sub_header">Thẻ table data</h4>
+          <p>Thẻ &lt;td&gt; xác định phần tử là một ô dữ liệu trong bảng</p>
+          <p>Các thuộc tính thường gặp</p>
+          <div class="example">
+            <code class="example_para">
+              <p>Thuộc tính <i>height</i> xác định chiều cao của ô</p>
+              <p>Thuộc tính <i>width</i> xác định chiều rộng của ô</p>
+            </code>
+          </div>
+        </article>
+      </section>
+
+      <section id="lesson_six" class="main-section">
+        <header>Bài 6: Audio</header>
+
+        <article>
+          <p>
+            Thẻ &lt;audio&gt; được dùng để tạo một <i>trình phát nhạc</i> cho
+            trang web
+          </p>
+          <p>
+            Để tạo một trình phát nhạc thì thẻ &lt;audio&gt; phải kết hợp mới
+            thẻ &lt;source&gt; để xác định nguồn của tập tin âm thanh mà bạn
+            muốn phát
+          </p>
+          <p>Một số thuộc tính thường dùng</p>
+          <div class="example">
+            <code class="example_para">
+              <p>
+                Thuộc tính <i>src</i> xác định đường dẫn đến tập tin âm thanh mà
+                bạn muốn phát
+              </p>
+              <p>
+                Thuộc tính <i>controls</i> xác định việc
+                <i>trình phát nhạc sẽ được hiển thị trên màn hình</i>
+              </p>
+              <p>
+                Thuộc tính <i>autoplay</i> thiết lập hành động
+                <i
+                  >sau khi trang web được tải xong, trình phtas nhạc sẽ tự động
+                  chơi bản nhạc</i
+                >
+              </p>
+              <p>
+                Thuộc tính <i>loop</i> thiết lập hành động
+                <i
+                  >bản nhạc sẽ tự động được phát lặp lại sau mỗi lần kết thúc</i
+                >
+              </p>
+              <p>
+                Thuộc tính <i>muted</i> xác định việc trình phát nhạc sẽ mặc
+                định được thiết lập ở chế độ <i>tắt tiếng</i>
+              </p>
+            </code>
+          </div>
+        </article>
+      </section>
+
+      <section id="lesson_seven" class="main-section">
+        <header>Bài 7: Video</header>
+
+        <article>
+          <p>
+            Thẻ &lt;video&gt; được dùng để tạo một <i>trình xem phim</i> cho
+            trang web
+          </p>
+          <p>
+            Để tạo một trình phát nhạc thì thẻ &lt;video&gt; phải kết hợp mới
+            thẻ &lt;source&gt; để xác định nguồn của tập tin video mà bạn muốn
+            phát
+          </p>
+          <p>Một số thuộc tính thường dùng</p>
+
+          <div class="example">
+            <code class="example_para">
+              <p>
+                Thuộc tính <i>src</i> xác định đường dẫn đến tập tin video mà
+                bạn muốn phát
+              </p>
+              <p>
+                Thuộc tính <i>controls</i> xác định việc
+                <i>thanh điều khiển của trình xem phim sẽ được hiển thị</i>
+              </p>
+              <p>
+                Thuộc tính <i>autoplay</i> thiết lập hành động
+                <i
+                  >sau khi trnag web được tải xong, trình xem phim sẽ tự động
+                  phát video</i
+                >
+              </p>
+              <p>
+                Thuộc tính <i>loop</i> thiết lập hành động
+                <i>video sẽ tự động được phát lại sau mỗi lần kết thúc</i>
+              </p>
+              <p>
+                Thuộc tính <i>muted</i> xác định việc trình xem phim sẽ mặc định
+                được thiết lập ở chế đọ <i>tắt tiếng</i>
+              </p>
+              <p>
+                Thuộc tính <i>poster</i> xác định một tập tin hình ảnh dùng để
+                làm ảnh đại diện cho video trước khi phát
+              </p>
+              <p>
+                Thuộc tính <i>width</i> xác định chiều rộng của trình xem phim
+              </p>
+              <p>
+                Thuộc tính <i>height</i> xác định chiều cao của trình xem phim
+              </p>
+            </code>
+          </div>
+        </article>
+      </section>
+
+      <section id="lesson_eight" class="main-section">
+        <header>Bài 8: Button</header>
+
+        <article>
+          <p>Thẻ &lt;button&gt; dùng để tạo một nút bấm</p>
+          <p>Một số thuộc tính thường dùng</p>
+
+          <div class="example">
+            <code class="example_para">
+              <p>Thuộc tính <i>name</i> chỉ định tên của button</p>
+              <p>
+                Thuộc tính <i>type</i> chỉ định kiểu của button (butotn, submit,
+                reset)
+              </p>
+              <p>Thuộc tính <i>value</i> chỉ định giá trị của button</p>
+              <p>
+                Thuộc tính <i>autofocus</i> chỉ định rằng một nút sẽ tự động
+                focus sau khi trang web được tải xong
+              </p>
+              <p>
+                Thuộc tính <i>disable</i> chỉ định răng một button sẽ bị vô hiệu
+                hóa
+              </p>
+              <p>
+                Thuộc tính <i>onclick</i> thuộc tinh này chỉ được kích hoạt khi
+                người dùng ấn chuột vào nút trên trang web
+              </p>
+            </code>
+          </div>
+        </article>
+      </section>
+
+      <section id="lesson_nine" class="main-section">
+        <header>Bài 9: Form</header>
+
+        <article>
+          <p>Comming soon...</p>
+        </article>
+      </section>
+
+      <section id="lesson_ten" class="main-section">
+        <header>Bài 10: Meta tag</header>
+
+        <article>
+          <p>
+            Thẻ &lt;meta&gt; được dùng để định nghĩa các thông tin cơ bản về
+            trang web như tác giả, từ khóa, ...
+          </p>
+          <p>Một vài thẻ &lt;meta&gt; thường dùng</p>
+
+          <p class="description">Tự động tải lại trang web sau 30s</p>
+          <div class="example">
+            <code class="example_para">
+              &lt;meta http-equiv="refresh" content="30"&gt;
+            </code>
+          </div>
+
+          <p class="description">
+            Thiết định khung nhìn để trang web dễ nhìn trên tất cả các thiết bị
+          </p>
+          <code class="example_para">
+            &lt;meta name="viewport" content="width=device-width,
+            initial-scale=1.0"&gt;
+          </code>
+
+          <p class="description">Chỉ định mã hoá ký tự cho tài liệu HTML</p>
+          <code class="example_para"> &lt;meta charset="UTF-8"&gt; </code>
+        </article>
+      </section>
+
+      <section id="lesson_eleven" class="main-section">
+        <header>Bài 11: Color</header>
+
+        <article>
+          <p>
+            <i>Color</i> trong HTML không phải là một thẻ hay một thuộc tính nói
+            riêng, <i>color</i> là cách nói chung cho tất cả các thuộc tính liên
+            quan đến màu trong HTML
+          </p>
+          <p>
+            Gần như trong tất cả các thẻ đều có một vài thuộc tính để thay đổi
+            màu sắc
+          </p>
+          <p>
+            Tuy nhiên, phần lớn người dùng đều không trực tiếp điều chỉnh màu
+            sắc trên HTML mà họ sẽ thay đổi bên CSS
+          </p>
+        </article>
+      </section>
+
+      <section id="lesson_twelve" class="main-section">
+        <header>Bài 12: Span & div tags</header>
+
+        <article>
+          <h4 class="sub_header">Span tag</h4>
+          <p>
+            Thẻ &lt;span&gt; được dùng để nhấn mạnh những thành phần bên trong
+            thẻ mà không làm thay đổi những yếu tố bên ngoài
+          </p>
+
+          <div class="example">
+            <code class="example_knowledge">
+              Xin chào, &lt;span&gt;&lt;i&gt;&lt;ins&gt;tôi là
+              ABC&lt;/ins&gt;&lt;/i&gt;&lt;/span&gt;, tôi là một ví dụ
+            </code>
+
+            <code class="example_code">
+              Xin chào,
+              <span
+                ><i><ins>tôi là ABC</ins></i></span
+              >, tôi là một ví dụ
+            </code>
+          </div>
+
+          <h4 class="sub_header">Div tag</h4>
+          <p>
+            Thẻ &lt;div&gt; được dùng để nhấn mạnh những thành phần bên trong
+            thẻ và sẽ tách riêng những thành phần ấy ra khỏi những yếu tố xung
+            quanh
+          </p>
+
+          <div class="example">
+            <code class="example_knowledge">
+              Xin chào, &lt;div&gt;&lt;i&gt;&lt;ins&gt;tôi là
+              ABC&lt;/ins&gt;&lt;/i&gt;&lt;/div&gt;, tôi là một ví dụ
+            </code>
+
+            <code class="example_code">
+              Xin chào,
+              <div id="div-ex">
+                <i><ins>tôi là ABC</ins></i>
+              </div>
+              , tôi là một ví dụ
+            </code>
+          </div>
+        </article>
+      </section>
+
+      <section id="lesson_thirteen" class="main-section">
+        <header>Bài 13: Một vài lưu ý</header>
+
+        <article>
+          <p>Comming soon...</p>
+        </article>
+      </section>
+    </main>
+  </body>
+</html>
